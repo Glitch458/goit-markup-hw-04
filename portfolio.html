@@ -16,6 +16,7 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
     <!-- Шапка -->
     <header class="main-header">
@@ -36,10 +37,18 @@
         </nav>
         <ul class="navigation-contact">
           <li class="navigation-item">
-            <a href="mailto:info@devstudio.com" class="navigation-address">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="navigation-address">
+              <svg class="icon-contact" width="16" height="12">
+                <use href="../images/icons.svg#mail"></use></svg
+              >info@devstudio.com</a
+            >
           </li>
           <li class="navigation-item">
-            <a href="tel:+380961111111" class="navigation-address">+38 096 111 11 11</a>
+            <a href="tel:+380961111111" class="navigation-address">
+              <svg class="icon-contact" width="10" height="16">
+                <use href="../images/icons.svg#smartphone"></use></svg
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
@@ -68,111 +77,149 @@
           <!-- Список работ -->
           <ul class="works">
             <li class="work-list-card">
-              <img class="image" src="./images/img21.jpg" alt="ноутбук" width="370" height="294" />
-              <div class="work-description">
-                <h2 class="works-item">Технокряк</h2>
-                <p class="works-id">Веб-сайт</p>
-              </div>
+              <a class="card-link" href="">
+                <img
+                  class="image"
+                  src="./images/img21.jpg"
+                  alt="ноутбук"
+                  width="370"
+                  height="294"
+                />
+                <div class="work-description">
+                  <h2 class="works-item">Технокряк</h2>
+                  <p class="works-id">Веб-сайт</p>
+                </div>
+              </a>
             </li>
 
             <li class="work-list-card">
-              <img
-                class="image"
-                src="./images/img22.jpg"
-                alt="баскетболисты"
-                width="370"
-                height="294"
-              />
-              <div class="work-description">
-                <h2 class="works-item">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
-                <p class="works-id">Дизайн</p>
-              </div>
+              <a class="card-link" href="">
+                <img
+                  class="image"
+                  src="./images/img22.jpg"
+                  alt="баскетболисты"
+                  width="370"
+                  height="294"
+                />
+                <div class="work-description">
+                  <h2 class="works-item">
+                    Постер <span lang="en">New Orlean vs Golden Star</span>
+                  </h2>
+                  <p class="works-id">Дизайн</p>
+                </div>
+              </a>
             </li>
 
             <li class="work-list-card">
-              <img
-                class="image"
-                src="./images/img23.jpg"
-                alt="надпись ресторан морской еды на фоне рыбы"
-                width="370"
-                height="294"
-              />
-              <div class="work-description">
-                <h2 class="works-item">Ресторан <span lang="en">Seafood</span></h2>
-                <p class="works-id">Приложение</p>
-              </div>
+              <a class="card-link" href="">
+                <img
+                  class="image"
+                  src="./images/img23.jpg"
+                  alt="надпись ресторан морской еды на фоне рыбы"
+                  width="370"
+                  height="294"
+                />
+                <div class="work-description">
+                  <h2 class="works-item">Ресторан <span lang="en">Seafood</span></h2>
+                  <p class="works-id">Приложение</p>
+                </div>
+              </a>
             </li>
 
             <li class="work-list-card">
-              <img class="image" src="./images/img24.jpg" alt="наушники" width="370" height="294" />
-              <div class="work-description">
-                <h2 class="works-item">Проект <span lang="en">Prime</span></h2>
-                <p class="works-id">Маркетинг</p>
-              </div>
+              <a class="card-link" href="">
+                <img
+                  class="image"
+                  src="./images/img24.jpg"
+                  alt="наушники"
+                  width="370"
+                  height="294"
+                />
+                <div class="work-description">
+                  <h2 class="works-item">Проект <span lang="en">Prime</span></h2>
+                  <p class="works-id">Маркетинг</p>
+                </div>
+              </a>
             </li>
 
             <li class="work-list-card">
-              <img
-                class="image"
-                src="./images/img25.jpg"
-                alt="две коробки с надписями"
-                width="370"
-                height="294"
-              />
-              <div class="work-description">
-                <h2 class="works-item">Проект <span lang="en">Boxes</span></h2>
-                <p class="works-id">Приложение</p>
-              </div>
+              <a class="card-link" href="">
+                <img
+                  class="image"
+                  src="./images/img25.jpg"
+                  alt="две коробки с надписями"
+                  width="370"
+                  height="294"
+                />
+                <div class="work-description">
+                  <h2 class="works-item">Проект <span lang="en">Boxes</span></h2>
+                  <p class="works-id">Приложение</p>
+                </div>
+              </a>
             </li>
 
             <li class="work-list-card">
-              <img class="image" src="./images/img26.jpg" alt="монитор" width="370" height="294" />
-              <div class="work-description">
-                <h2 lang="en" class="works-item">Inspiration has no Borders</h2>
-                <p class="works-id">Веб-сайт</p>
-              </div>
+              <a class="card-link" href="">
+                <img
+                  class="image"
+                  src="./images/img26.jpg"
+                  alt="монитор"
+                  width="370"
+                  height="294"
+                />
+                <div class="work-description">
+                  <h2 lang="en" class="works-item">Inspiration has no Borders</h2>
+                  <p class="works-id">Веб-сайт</p>
+                </div>
+              </a>
             </li>
 
             <li class="work-list-card">
-              <img
-                class="image"
-                src="./images/img27.jpg"
-                alt="раскрытая книга"
-                width="370"
-                height="294"
-              />
-              <div class="work-description">
-                <h2 class="works-item">Издание <span lang="en">Limited Edition</span></h2>
-                <p class="works-id">Дизайн</p>
-              </div>
+              <a class="card-link" href="">
+                <img
+                  class="image"
+                  src="./images/img27.jpg"
+                  alt="раскрытая книга"
+                  width="370"
+                  height="294"
+                />
+                <div class="work-description">
+                  <h2 class="works-item">Издание <span lang="en">Limited Edition</span></h2>
+                  <p class="works-id">Дизайн</p>
+                </div>
+              </a>
             </li>
 
             <li class="work-list-card">
-              <img
-                class="image"
-                src="./images/img28.jpg"
-                alt="бирка для одежды"
-                width="370"
-                height="294"
-              />
-              <div class="work-description">
-                <h2 class="works-item">Проект <span lang="en">LAB</span></h2>
-                <p class="works-id">Маркетинг</p>
-              </div>
+              <a class="card-link" href="">
+                <img
+                  class="image"
+                  src="./images/img28.jpg"
+                  alt="бирка для одежды"
+                  width="370"
+                  height="294"
+                />
+                <div class="work-description">
+                  <h2 class="works-item">Проект <span lang="en">LAB</span></h2>
+                  <p class="works-id">Маркетинг</p>
+                </div>
+              </a>
             </li>
 
             <li class="work-list-card">
-              <img
-                class="image"
-                src="./images/img29.jpg"
-                alt="человек работающий за ноутбуком"
-                width="370"
-                height="294"
-              />
-              <div class="work-description">
-                <h2 lang="en" class="works-item">Growing Business</h2>
-                <p class="works-id">Приложение</p>
-              </div>
+              <a class="card-link" href="">
+                <img
+                  class="image"
+                  src="./images/img29.jpg"
+                  alt="человек работающий за ноутбуком"
+                  width="370"
+                  height="294"
+                />
+                <div class="work-description">
+                  <h2 lang="en" class="works-item">Growing Business</h2>
+                  <p class="works-id">Приложение</p>
+                </div>
+              </a>
             </li>
           </ul>
         </div>
@@ -181,13 +228,51 @@
 
     <!-- Футер -->
     <footer class="contact">
-      <div class="container">
-        <a href="./index.html" class="contact-logo"> <span class="accent">Web</span>Studio</a>
-        <address class="contact-list">
-          <p class="contact-address">г. Киев, пр-т Леси Украинки, 26</p>
-          <a href="mailto:info@example.com" class="contact-link">info@example.com</a>
-          <a href="tel:+380991111111" class="contact-link">+38 099 111 11 11</a>
-        </address>
+      <div class="container footer-flex">
+        <!-- Контакты -->
+        <div>
+          <a href="./index.html" class="contact-logo"> <span class="accent">Web</span>Studio</a>
+          <address class="contact-list">
+            <p class="contact-address">г. Киев, пр-т Леси Украинки, 26</p>
+            <a href="mailto:info@example.com" class="contact-link">info@example.com</a>
+            <a href="tel:+380991111111" class="contact-link">+38 099 111 11 11</a>
+          </address>
+        </div>
+
+        <!-- Соц сети -->
+        <div class="footer-socials">
+          <p class="footer-socials-title">присоединяйтесь</p>
+          <ul class="social-list">
+            <li>
+              <a class="social-link" href="">
+                <svg class="social-icon">
+                  <use href="../images/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="social-link" href="">
+                <svg class="social-icon">
+                  <use href="../images/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="social-link" href="">
+                <svg class="social-icon">
+                  <use href="../images/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="social-link" href="">
+                <svg class="social-icon">
+                  <use href="../images/icons.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
