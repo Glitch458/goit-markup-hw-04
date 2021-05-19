@@ -9,7 +9,7 @@
   --logo: #000000;
   --alt-bg: #2f303a;
   --secondary-bg: #f5f4fa;
-  --button-bg-active: #188ce8;
+  --button-bg-hover: #188ce8;
   --icon-color: #afb1b8;
 }
 
@@ -198,8 +198,8 @@ a {
 
   cursor: pointer;
 }
-.button:active {
-  background-color: var(--button-bg-active);
+.button:hover {
+  background-color: var(--button-bg-hover);
 }
 
 /* =======Преимущества======= */
