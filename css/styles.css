@@ -21,6 +21,17 @@ body {
   letter-spacing: 0.03em;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 img {
   display: block;
 }
@@ -203,13 +214,10 @@ a {
 }
 
 .feature-desc {
-  margin-top: 0;
-  margin-bottom: 0;
   color: var(--sec-text-color);
   line-height: 24px;
 }
 .feature-list-title {
-  margin-top: 0;
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -236,7 +244,6 @@ a {
 .occupation-title,
 .team-title,
 .client-title {
-  margin-top: 0;
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -272,8 +279,6 @@ a {
 
 .team-member,
 .team-role {
-  margin-top: 0;
-  margin-bottom: 0;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -365,7 +370,6 @@ a {
 }
 
 .contact-address {
-  margin-top: 0;
   margin-bottom: 9px;
   line-height: 1.7;
 }
@@ -390,9 +394,10 @@ a {
 }
 
 .footer-socials-title {
-  margin-top: 12px;
+  padding-top: 12px;
   margin-bottom: 20px;
-  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
   text-transform: uppercase;
 }
 
@@ -478,7 +483,6 @@ a {
 }
 
 .works-item {
-  margin-top: 0;
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
@@ -487,8 +491,6 @@ a {
 }
 
 .works-id {
-  margin-top: 0;
-  margin-bottom: 0;
   color: var(--sec-text-color);
   font-size: 16px;
   line-height: 1.87;
