@@ -133,6 +133,8 @@ a {
 }
 
 .navigation-address {
+  display: flex;
+  align-items: center;
   color: var(--sec-text-color);
 }
 
@@ -145,7 +147,6 @@ a {
 
 .icon-contact {
   margin-right: 10px;
-  vertical-align: middle;
   fill: var(--sec-text-color);
 }
 
@@ -226,12 +227,19 @@ a {
 }
 
 .feature-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 270px;
   height: 120px;
-  padding: 25px 100px;
   margin-bottom: 30px;
 
   background-color: var(--secondary-bg);
+}
+
+.icon-image {
+  width: 70px;
+  height: 70px;
 }
 
 /* =======Чем мы занимаемся======= */
@@ -302,7 +310,9 @@ a {
 }
 
 .social-link {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 44px;
   height: 44px;
 }
@@ -317,7 +327,6 @@ a {
   fill: var(--icon-color);
   width: 20px;
   height: 20px;
-  margin: 12px;
 }
 
 .social-link:hover .social-icon,
@@ -333,10 +342,11 @@ a {
 }
 
 .client-link {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 170px;
   height: 92px;
-  padding: 16px 32px;
   border: 1px solid var(--icon-color);
   border-radius: 4px;
   fill: var(--icon-color);
