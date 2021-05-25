@@ -373,6 +373,7 @@ a {
 
 .footer-flex {
   display: flex;
+  align-items: baseline;
 }
 
 .contact-list {
@@ -404,7 +405,6 @@ a {
 }
 
 .footer-socials-title {
-  padding-top: 12px;
   margin-bottom: 20px;
   font-size: 14px;
   line-height: 1.14;
